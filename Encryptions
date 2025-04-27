@@ -1,0 +1,22 @@
+#define PROTO_MEMBER1_ENC     vmval0
+#define PROTO_MEMBER2_ENC     vmval2
+#define PROTO_DEBUGISN_ENC    vmval4
+#define PROTO_TYPEINFO_ENC    vmval1
+#define PROTO_DEBUGNAME_ENC   vmval3
+
+#define LSTATE_STACKSIZE_ENC  vmval4
+#define LSTATE_GLOBAL_ENC     vmval0
+
+#define CLOSURE_FUNC_ENC      vmval0
+#define CLOSURE_CONT_ENC      vmval4
+#define CLOSURE_DEBUGNAME_ENC vmval2
+
+#define TABLE_MEMBER_ENC      vmval0
+#define TABLE_META_ENC        vmval0
+#define UDATA_META_ENC        vmval1
+
+#define TSTRING_HASH_ENC      vmval2
+#define TSTRING_LEN_ENC       vmval0
+
+#define GSTATE_TTNAME_ENC     vmval0
+#define GSTATE_TMNAME_ENC     vmval0
