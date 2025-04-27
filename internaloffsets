@@ -1,38 +1,38 @@
-Print: 0x1644C90
-TaskDefer: 0x10DD100
-TaskSpawn: 0x10DD3C0
-TaskDelay: 0x10DD820
-LuaVMLoad: 0xCA28F0
-GetGlobalState: 0xEF84A0
-DecryptLuaState: 0xC9FD00
-LuaL_register: 0x269A480
-Pseudo2addr: 0x26941E0
-LuaO_pushvfstring: 0x2704BF0
-LuaL_checklstring: 0x2698B00
-LuaA_toobject: 0x26942B0
-LuaM_visitgco: 0x26F0140
-LuaL_getmetafield: 0x2699010
-Luau_execute: 0x26DB300
-Pushinstance_1: 0xFC65C0
-Pushinstance_2: 0xFC6610
-Getproperty: 0xB98520
-FireClickDetector: 0x1CFAF00
-LuaC_step: 0x26A30D0
-GetContextObject: 0xF11C00
-SetProtoCapabilities: 0xDB82E0
-ScriptContextResume: 0xF08DE0
-RequestCode: 0xA120E0
-Impersonator: 0x3340520
-FlogDataBank: 0x61A13F8
-LockViolationInstanceCrash: 0x5A91678
-AppdataInfo: 0x62BB708
-LuaT_Eventnames: 0x463F550
-LuaT_Typenames: 0x463F4F0
-RawScheduler: 0x6375108
-LuaO_nilobject: 0x463F5F8
-Dummynode: 0x463ED28
-Ktable: 0x5E749B0
-offset_SetInsert: 0xB57060
-offset_WhitelistedPages: 0x2A86A0
-offset_PageHash: 0x5f9213b9
-offset_Bitmap: 0x2A8558
+const uintptr_t Print = REBASE(0x164A850);
+const uintptr_t TaskDefer = REBASE(0x10E5B80);
+const uintptr_t TaskSpawn = REBASE(0x10E5E90);
+const uintptr_t TaskDelay = REBASE(0x1B87700);
+const uintptr_t LuaVMLoad = REBASE(0xCB3460);
+const uintptr_t GetGlobalState = REBASE(0xF08A50);
+const uintptr_t DecryptLuaState = REBASE(0xCB0870);
+const uintptr_t LuaL_register = REBASE(0x26BFAC0);
+const uintptr_t Pseudo2addr = REBASE(0x26BA940);
+const uintptr_t LuaO_pushvfstring = REBASE(0x271E3C0);
+const uintptr_t LuaL_checklstring = REBASE(0x26BE360);
+const uintptr_t LuaA_toobject = REBASE(0x26BAA00);
+const uintptr_t LuaM_visitgco = REBASE(0x2709CA0);
+const uintptr_t LuaL_getmetafield = REBASE(0x26BE860);
+const uintptr_t Luau_execute = REBASE(0x26F63B0);
+const uintptr_t Pushinstance_1 = REBASE(0xFD8110);
+const uintptr_t Pushinstance_2 = REBASE(0xFD8160);
+const uintptr_t Getproperty = REBASE(0xBA8840);
+const uintptr_t FireClickDetector = REBASE(0x1D04280);
+const uintptr_t LuaC_step = REBASE(0x26C6BB0);
+const uintptr_t GetContextObject = REBASE(0xF20F00);
+const uintptr_t SetProtoCapabilities = REBASE(0xDDFCF0);
+const uintptr_t ScriptContextResume = REBASE(0xF19110);
+const uintptr_t RequestCode = REBASE(0xA1EAC0);
+const uintptr_t Impersonator = REBASE(0x335BA10);
+const uintptr_t FlogDataBank = REBASE(0x61EA0E8);
+const uintptr_t LockViolationInstanceCrash = REBASE(0x5AD2DD8);
+const uintptr_t AppdataInfo = REBASE(0x63044B8);
+const uintptr_t LuaT_Eventnames = REBASE(0x466CD00);
+const uintptr_t LuaT_Typenames = REBASE(0x466CCA0);
+const uintptr_t RawScheduler = REBASE(0x63BE258);
+const uintptr_t LuaO_nilobject = REBASE(0x466CDA8);
+const uintptr_t Dummynode = REBASE(0x466C7C8);
+const uintptr_t Ktable = REBASE(0x5EBC120);
+const uintptr_t offset_SetInsert = 0xB57060;
+const uintptr_t offset_WhitelistedPages = 0x2A86A0;
+const uintptr_t offset_PageHash = 0x5f9213b9;
+const uintptr_t offset_Bitmap = 0x2A8558;
